@@ -18,21 +18,21 @@ button {
     background: url('./Images/activewar.jpg') no-repeat;
     background-size: cover;
     width:100%;
-    max-width: 1440px;
+    max-width: 1500px;
     margin: auto;
 }
 .banner2 {
     background: url('./Images/bras.jpg') no-repeat;
     background-size: cover;
     width:100%;
-    max-width: 1440px;
+    max-width: 1500px;
     margin: auto;
 }
 .banner3 {
     background: url('./Images/hosiery.jpg') no-repeat;
     background-size: cover;
     width:100%;
-    max-width: 1440px;
+    max-width: 1500px;
     margin: auto;
 }
 .content-right {
