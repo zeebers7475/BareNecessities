@@ -75,6 +75,7 @@ span {
 @media only screen and (max-width: 1024px) {
     .banner1, .banner2, .banner3{
         background: none;
+        overflow-x: hidden;
     }
     .content{
         display: none;
