@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+p {
+    margin:0;
+}
+button {
+    background-color: transparent;
+    border:none;
+    box-shadow: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.banner1 {
+    background: url('./Images/activewar.jpg') no-repeat;
+    background-size: cover;
+    width:100%;
+    max-width: 1440px;
+    margin: auto;
+}
+.banner2 {
+    background: url('./Images/bras.jpg') no-repeat;
+    background-size: cover;
+    width:100%;
+    max-width: 1440px;
+    margin: auto;
+}
+.banner3 {
+    background: url('./Images/hosiery.jpg') no-repeat;
+    background-size: cover;
+    width:100%;
+    max-width: 1440px;
+    margin: auto;
+}
+.content-right {
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    width:50%;
+    margin-left:45%;
+    text-align:center;
+}
+.content-left {
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    width:40%;
+    margin-left:0;
+    text-align:center;
+}
+.title {
+    margin-top:100px;
+    margin-bottom:50px;
+    letter-spacing: 2px;
+}
+.content {
+    margin-bottom:50px;
+}
+.top-buttons {
+    margin-bottom: 40px;
+}
+.bottom-buttons {
+    margin-bottom:100px;
+}
+span {
+    margin-left:2px;
+}
+.show-mobile{
+    display:none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner1, .banner2, .banner3{
+        background: none;
+    }
+    .content{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+    .show-mobile{
+        display: block;
+    }
+    .active-pic{
+        object-fit: cover;
+        object-position: 20% 0%;
+        height: 50vh;
+    }
+    .bra-pic{
+        object-fit: cover;
+        object-position: 86% 0%;
+        height: 50vh;
+    }
+    .hosiery-pic{
+        object-fit: cover;
+        object-position: 10% 0%;
+        height: 50vh;
+    }
+    .content-right, .content-left {
+        width:100%;
+        margin:0;
+    }
+    .display-flex{
+        display: flex;
+    }
+    .top-buttons{
+        margin:0
+    }
+    button{
+        margin:.5rem;
+        letter-spacing: 1px;
+        font-size: 16px;
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    span {
+        font-size: 12px;
+    }
+}
